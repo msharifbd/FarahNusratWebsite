@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  title: "Nusrat Farah"
+  navbar:
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: project.qmd
+        text: Projects
+      - href: resume/farah_resume.pdf
+        text: Resume
+      - href: books.qmd
+        text: Books
+      - href: teaching.qmd
+        text: Teaching
+      - href: blogs.qmd
+        text: Blogs 
+      - icon: twitter
+        href: www.twitter.com
+      - icon: linkedin
+        href: www.linkedin.com  
+      - icon: facebook 
+        href: www.facebook.com  
+  page-footer:
+    center:
+      - "Copyright©2025, Nusrat Farah"
+format:
+  html:
+    theme:
+      - united
+      - brand
+    css: styles.css
+    toc: true
+    mainfont: "Garamond, serif"
+   
+
+
+
